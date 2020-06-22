@@ -1,5 +1,5 @@
 include(PythonConfig)
-find_python_module(elftools)
+#find_python_module(elftools)
 
 configure_file(sancus/config.py.in
                ${CMAKE_CURRENT_SOURCE_DIR}/sancus/config.py @ONLY)
